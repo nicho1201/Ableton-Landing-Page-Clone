@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>Learn more about Ableton - maker of Live and Push | Ableton</title>
+    <script src="dom.js"></script>
   </head>
   <body>
     <header>
       <nav class="main-nav">
         <div class="left-main-nav">
           <div class="logo">
-            <img src="logo.png" alt="" />
+            <img src="Images/logo.png" alt="" />
           </div>
           <ul class="nav-link">
             <li><a href="">Live</a></li>
@@ -171,10 +172,104 @@
           <div class="latest-job">See latest job ></div>
         </div>
       </div>
-      <div class="nav-separator"></div>
+      <div class="footer-separator"></div>
     </main>
     <footer>
-      <h1>Ableton</h1>
+      <img src="images/ableton-logo-text.svg" class="text-logo" />
+      <div class="footer-row-1">
+        <div class="social-links">
+          <a href="" class="footer-text-2"><p>Register Live or Push ></p></a>
+          <a href="" class="footer-text-2"><p>About Ableton ></p></a>
+          <a href="" class="footer-text-2"><p>Jobs ></p></a>
+          <div class="social-media-logos">
+            <a href="" class="facebook-logo"
+              ><img src="Images/facebook-logo.png" alt=""
+            /></a>
+            <a href="" class="twitter-logo"
+              ><img src="Images/twitter-logo.png" alt=""
+            /></a>
+            <a href="" class="youtube-logo"
+              ><img src="Images/youtube-logo.jpg" alt="" /></a
+            ><a href="" class="instagram-logo"
+              ><img src="Images/instagram-logo.webp" alt=""
+            /></a>
+          </div>
+        </div>
+        <div class="education-links">
+          <h1 class="footer-text-1">Education</h1>
+          <a href="" class="footer-text-2"
+            ><p>Offers for students and teachers ></p></a
+          ><a href="" class="footer-text-2"
+            ><p>Ableton for the Classroom ></p></a
+          ><a href="" class="footer-text-2"
+            ><p>Ableton for Colleges and Universities ></p></a
+          >
+        </div>
+        <div class="news-letter">
+          <h1 class="footer-text-1">Sign up to our newsletter</h1>
+          <p class="footer-text-2">
+            Enter your email address to stay up to date with the latest offers,
+            tutorials, downloads, surveys and more.
+          </p>
+          <div class="email-form">
+            <form action="">
+              <input type="email" id="form" placeholder="Email Address" />
+              <button id="button">Sign Up</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="footer-row-2">
+        <div class="community">
+          <h1 class="footer-text-1">Community</h1>
+          <a href="" class="footer-text-2"><p>Find Ableton User Groups ></p></a
+          ><a href="" class="footer-text-2"><p>Find Certified Training ></p></a
+          ><a href="" class="footer-text-2"
+            ><p>Become a Certified Trainer ></p></a
+          >
+        </div>
+        <div class="distributors">
+          <h1 class="footer-text-1">Distributors</h1>
+          <p class="footer-text-2">Find Distributors ></p>
+          <p class="footer-text-2">Try Push in-store ></p>
+        </div>
+        <div class="language-location">
+          <h1 class="footer-text-1">Languange and Location</h1>
+          <form class="language-location-container">
+            <select name="language" id="language">
+              <option value="en">English</option>
+              <option value="de">Deutsch</option>
+              <option value="fr" selected="">Français</option>
+              <option value="ja">日本語</option>
+              <option value="zh-cn">简体中文</option>
+            </select>
+            <select name="location" id="location">
+              <option value="us">United States</option>
+              <option value="uk">United Kingdom</option>
+              <option value="fr">France</option>
+              <option value="de">Germany</option>
+              <option value="ca">Canada</option>
+              <option value="jp">Japan</option>
+              <option value="cn">China</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="footer-row-3">
+        <div class="row-3-left">
+          <a href="" class="left-link">Archive</a>
+          <a href="" class="left-link">Contact Us</a>
+          <a href="" class="left-link">Press Resources</a>
+          <a href="" class="left-link">Legal Info</a>
+          <a href="" class="left-link">Privacy Policy</a>
+          <a href="" class="left-link">Cookie Settings</a>
+          <a href="" class="left-link">Imprint</a>
+        </div>
+        <di class="row-3-right">
+          <p class="left-link made-in">Made in Berlin</p>
+          <img src="images/logo.png" alt="" class="logo" width="45px">
+        </div>
+      </div>
     </footer>
   </body>
 </html>
