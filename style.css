@@ -219,11 +219,11 @@ main .collage-lime {
 }
 
 main .collage-lime .lime-1 {
-  background-image: url(images/lime-1.jpg);
+  background-image: url(Images/lime-1.jpg);
 }
 
 main .collage-lime .lime-2 {
-  background-image: url(images/lime-2.jpg);
+  background-image: url(Images/lime-2.jpg);
 }
 
 main .collage-lime .lime-1,
@@ -235,7 +235,7 @@ main .collage-lime .lime-2 {
 }
 
 main .collage-lime .lime-3 {
-  background-image: url(images/lime-3.jpg);
+  background-image: url(Images/lime-3.jpg);
   width: 41.6vw;
   height: 41.6vw;
   background-position: center;
@@ -254,7 +254,7 @@ main .collage-lime .background-lime {
 }
 
 main .big-image {
-  background: url(images/bigimage.webp) center center/cover;
+  background: url(Images/bigimage.webp) center center/cover;
   margin: 0 8.3vw 8.3vw;
   width: 83.4vw;
   min-height: 46.85vw;
@@ -292,7 +292,7 @@ main .collage-lavender .lavender-1 {
 }
 
 main .collage-lavender .lavender-2 {
-  background: url(images/lavender-2.jpg) center/cover;
+  background: url(Images/lavender-2.jpg) center/cover;
   width: 41.6vw;
   height: 41.6vw;
 }
@@ -305,7 +305,7 @@ main .job-teaser {
 }
 
 main .job-teaser .job-photo {
-  background: url(images/job-teaser.jpg) 83% 50% / cover;
+  background: url(Images/job-teaser.jpg) 83% 50% / cover;
   width: 41.6vw;
 }
 
