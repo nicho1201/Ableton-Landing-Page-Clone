@@ -11,7 +11,6 @@
 header {
   display: flex;
   flex-direction: column;
-  max-height: 131px;
 }
 
 header .main-nav {
@@ -55,8 +54,21 @@ header .main-nav .left-main-nav .nav-link li a {
   color: black;
 }
 
-header .main-nav .left-main-nav .nav-link li .more {
+.nav-link li:last-child {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+
+#more {
   color: #ff764d;
+}
+
+#more-indicator {
+  width: 0.8rem;
+  height: 0.8rem;
+  margin-left: 0.5rem;
 }
 
 header .main-nav .right-main-nav {
@@ -80,7 +92,80 @@ main .footer-separator {
   border-top: 2px solid #eee;
   display: flex;
 }
+#more-container {
+  display: none;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 2.6em;
+  padding-top: 1.4em;
+}
 
+#more-1 {
+  padding-bottom: 1.5625rem;
+}
+
+#more-1 ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+#more-1 ul li {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+#more-1 ul li:first-child {
+  padding-left: 0;
+  padding-right: 1rem;
+}
+
+#orange-text {
+  color: rgb(255, 118, 77);
+}
+
+#more-2 {
+  padding-top: 1.5625rem;
+}
+
+#more-2-container {
+  display: flex;
+  flex-direction: row;
+}
+
+#more-2-container div {
+  padding: 0rem 1.25rem;
+}
+
+#more-2-container div:first-child {
+  padding-left: 0rem;
+}
+
+#more-2-container div:last-child {
+  padding-right: 0rem;
+}
+
+.more-text-1 {
+  font-size: 1.7rem;
+  font-weight: 900;
+  line-height: 1.5;
+  padding-bottom: 0.8rem;
+}
+
+.more-text-2 {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  font-weight: 300;
+  text-decoration: none;
+  color: black;
+}
+
+.more-2-h2 {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  font-weight: 900;
+}
 /* in order position sticky to work, do not make the secondary nav to be a child of heaeder*/
 .secondary-nav {
   display: flex;
@@ -477,6 +562,28 @@ footer .footer-row-3 .left-link {
 @media (max-width: 1275px) {
   header .main-nav .left-main-nav {
     padding-left: 1.3em;
+  }
+
+  #more-container {
+    padding-left: 1.3em;
+    padding-right: 1.3em;
+    padding-top: 0.7em;
+  }
+
+  #more-2 {
+    padding-top: 0.5rem;
+  }
+
+  .more-text-1 {
+    font-size: 1.4rem;
+  }
+
+  .more-text-2 {
+    font-size: 0.9rem;
+  }
+
+  .more-2-h2 {
+    font-size: 0.9rem;
   }
 
   .secondary-nav {
