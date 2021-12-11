@@ -1,6 +1,6 @@
 // * More Button
 
-const more = document.querySelector(".nav-link li:last-child");
+const more = document.querySelector("#more");
 
 more.addEventListener("click", () => {
   let a = document.querySelector("#more-container");
